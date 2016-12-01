@@ -133,7 +133,7 @@ CKEDITOR.dialog.add('filerImageDialog', function(editor) {
 							'<label for="id_image">' + commonLang.image + ':</label>' +
 							'<img width="48" height="48" style="width:48px;" alt="' + lang.noFileAlt + '" class="quiet" src="' + nofile_icon + '" id="id_image_thumbnail_img">' +
 							'&nbsp;<span id="id_image_description_txt"></span>' +
-							'<a style="text-indent: 0;" onclick="return showRelatedObjectLookupPopup(this);" title="' + lang.browse +'" id="lookup_id_image" class="related-lookup" href="' + base_admin + '/filer/folder/last/?t=file_ptr">' +
+							'<a style="text-indent: 0;" onclick="return showRelatedObjectLookupPopup(this);" title="' + lang.browse +'" id="lookup_id_image" class="related-lookup" href="' + base_admin + '/filer/folder/last/?_pick=file">' +
 							'<img width="16" height="16" alt="' + lang.browse +'" src="' + base_static + '/admin/img/icon_searchbox.png">' +
 							'</a>' +
 							'<img width="10" height="10" style="display: none;" title="' + lang.clear + '" alt="' + lang.clear + '" src="' + base_static + '/admin/img/icon_deletelink.gif" id="id_image_clear">' +
